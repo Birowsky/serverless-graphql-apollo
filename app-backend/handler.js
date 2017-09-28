@@ -23,4 +23,4 @@ exports.graphqlHandler = function graphqlHandler(event, context, callback) {
   return handler(event, context, callbackFilter);
 };
 
-exports.graphiqlHandler = server.graphiqlLambda({ endpointURL: '/graphiql' });
+exports.graphiqlHandler = server.graphiqlLambda({ endpointURL: '/graphql' });
